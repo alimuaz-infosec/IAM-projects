@@ -16,8 +16,9 @@ User → Group → Application → Access Control → Token-based Authentication
 - Designed application access model for department-based segregation
 - Enforced least privilege access
 - below is the screenshot attached
-https://github.com/alimuaz-infosec/IAM-projects/blob/f4e2460e28492881a6af0a282e73a1222985a774/iam%20ss1.png
-
+(1) https://github.com/alimuaz-infosec/IAM-projects/blob/f4e2460e28492881a6af0a282e73a1222985a774/iam%20ss1.png
+(2) https://github.com/alimuaz-infosec/IAM-projects/blob/08c7c5f88c9f8ba8b5a6c37a6e08330f89473aab/iam%20ss2.png
+(3)
 
 ---
 
