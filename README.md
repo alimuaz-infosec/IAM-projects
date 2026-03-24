@@ -1,32 +1,71 @@
-# IAM Project 1 - Microsoft Entra ID
+# Enterprise IAM Implementation using Microsoft Entra ID
 
 ## Overview
-Designed and implemented an Identity & Access Management (IAM) architecture using Microsoft Entra ID.
+Designed and implemented a complete Identity and Access Management (IAM) solution using Microsoft Entra ID, covering authentication, authorization, and security controls.
 
-## Objectives
-- Implement Role-Based Access Control (RBAC)
-- Manage users and groups
-- Control application access
-- Simulate enterprise IAM environment
+---
 
 ## Architecture
-Users → Groups → Applications
+User → Group → Application → Access Control → Token-based Authentication
 
-## Implementation
+---
+
+## Project 1: IAM Architecture
 - Created users for HR, Finance, IT, and Guest roles
-- Designed security groups for each department
-- Implemented access control by assigning users to applications
-- Segregated access between departments
+- Implemented Role-Based Access Control (RBAC) using security groups
+- Designed application access model for department-based segregation
+- Enforced least privilege access
+
+---
+
+## Project 2: Security Hardening
+- Reduced attack surface by maintaining a single Global Administrator
 - Restricted guest user permissions
+- Controlled directory-level access
+- Implemented access restrictions between departments
+- Monitored sign-in activity
 
-## Key Learnings
-- Importance of RBAC in scalable IAM design
-- User-to-group-to-application mapping
-- Identity segregation and least privilege principles
-- Real-world IAM limitations and workarounds
+---
 
-## Note
-Due to environment limitations, user-based assignment was used instead of group-based RBAC. In a production environment, group-based access would be implemented.
+## Project 3: SSO & Token-Based Authentication
+- Implemented Single Sign-On (SSO) using Microsoft Entra ID
+- Configured application registration
+- Performed authentication using OpenID Connect
+- Tested authentication flows using jwt.ms
+- Analyzed JWT tokens and claims
+
+---
+
+## Key Concepts Implemented
+- Role-Based Access Control (RBAC)
+- Least Privilege Principle
+- Zero Trust Security Model
+- OAuth 2.0 (Authorization)
+- OpenID Connect (Authentication)
+- Token-based Authentication
+
+---
+
+## Security Design
+- Centralized identity provider
+- No password sharing with applications
+- Token-based secure authentication
+- Department-level access isolation
+
+---
+
+## Attack Scenarios
+- Unauthorized access blocked via RBAC
+- Guest users restricted from internal resources
+- Reduced admin exposure to prevent privilege abuse
+
+---
 
 ## Tools Used
 - Microsoft Entra ID
+- jwt.ms
+
+---
+
+## Note
+Some advanced features like Conditional Access and PIM were conceptually designed due to licensing limitations.
