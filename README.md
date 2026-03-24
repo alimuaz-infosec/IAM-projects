@@ -15,7 +15,9 @@ User → Group → Application → Access Control → Token-based Authentication
 - Implemented Role-Based Access Control (RBAC) using security groups
 - Designed application access model for department-based segregation
 - Enforced least privilege access
+- below is the screenshot attached
 https://github.com/alimuaz-infosec/IAM-projects/blob/f4e2460e28492881a6af0a282e73a1222985a774/iam%20ss1.png
+iam ss2.png
 
 ---
 
