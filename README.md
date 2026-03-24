@@ -17,7 +17,7 @@ User → Group → Application → Access Control → Token-based Authentication
 - Enforced least privilege access
 - below is the screenshot attached
 https://github.com/alimuaz-infosec/IAM-projects/blob/f4e2460e28492881a6af0a282e73a1222985a774/iam%20ss1.png
-iam ss2.png
+
 
 ---
 
