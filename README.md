@@ -41,6 +41,7 @@ https://github.com/alimuaz-infosec/IAM-projects/blob/1b9685c576cc170bd132c1b668b
 - Analyzed JWT tokens and claims
 https://github.com/alimuaz-infosec/IAM-projects/blob/2232c64ece6c850c93389ec1d1210d93d23d9cbe/iamlast.png
 https://github.com/alimuaz-infosec/IAM-projects/blob/5e9c3cb84b7d5c5ce12dc1495ffff9b090220f2e/iam3rdlast.png
+https://github.com/alimuaz-infosec/IAM-projects/blob/a07d79f790a366938d51e6091bffcdfff8306fe2/iam4thlast.png
 ---
 
 ## Key Concepts Implemented
