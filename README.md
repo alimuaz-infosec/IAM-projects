@@ -29,6 +29,7 @@ User → Group → Application → Access Control → Token-based Authentication
 - Implemented access restrictions between departments
 - Monitored sign-in activity
 https://github.com/alimuaz-infosec/IAM-projects/blob/f1ea70ebaf75625831ce87e9bfa6493424a97faa/iam6thlast.png
+https://github.com/alimuaz-infosec/IAM-projects/blob/ea110752659fbb23f7116fce0290e1d491e025fb/iam7thlast.png
 ---
 
 ## Project 3: SSO & Token-Based Authentication
