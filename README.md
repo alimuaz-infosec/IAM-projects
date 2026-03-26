@@ -37,7 +37,7 @@ User → Group → Application → Access Control → Token-based Authentication
 - Performed authentication using OpenID Connect
 - Tested authentication flows using jwt.ms
 - Analyzed JWT tokens and claims
-
+https://github.com/alimuaz-infosec/IAM-projects/blob/2232c64ece6c850c93389ec1d1210d93d23d9cbe/iamlast.png 
 ---
 
 ## Key Concepts Implemented
