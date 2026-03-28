@@ -1,0 +1,49 @@
+🔐 SAML SSO Integration using Microsoft Entra ID
+📌 Overview
+
+This project demonstrates the implementation of Single Sign-On (SSO) using Microsoft Entra ID.
+The goal was to simulate a real-world IAM scenario where an enterprise application is integrated with an Identity Provider using SAML.
+
+🎯 Objectives
+Integrate an application with Entra ID
+Configure SSO using SAML
+Implement access control using RBAC
+Understand identity claims and authentication flow
+Validate SSO behavior in a simulated environment
+🧩 Architecture
+User → Microsoft Entra ID → SAML Response → Application
+⚙️ Implementation Steps
+1️⃣ Application Creation
+Created a custom enterprise application in Entra ID
+Selected “Integrate any other application”
+2️⃣ SSO Configuration
+Configured SAML-based SSO
+Defined:
+Entity ID
+Reply URL (ACS)
+Sign-on URL
+Used dummy values for simulation
+3️⃣ Claims Mapping
+Configured identity attributes:
+user.displayname → Name
+user.mail → Email
+4️⃣ Access Control
+Assigned users and groups to the application
+Implemented Role-Based Access Control (RBAC)
+5️⃣ Certificate Handling
+Reviewed SAML signing certificate
+Understood its role in securing SAML responses
+6️⃣ Testing
+Triggered SSO login via Entra ID
+Verified authentication flow
+Observed expected failure at application endpoint (due to simulation)
+🔍 Key Learnings
+How SAML-based SSO works in enterprise environments
+Difference between Identity Provider and Application roles
+Importance of claims in identity transmission
+How access control is enforced before authentication completes
+Role of digital certificates in securing identity exchanges
+⚠️ Note
+
+This project uses a simulated application with dummy endpoints.
+The SSO flow was successfully validated up to the Identity Provider stage, but full login could not complete due to the absence of a real application backend.
